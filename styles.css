@@ -21,7 +21,7 @@ header {
   /* align-items: top; */
   justify-content: space-between;
   margin: auto;
-  height: 80vh;
+  max-height: 80%;
   max-width: 80%;
   border: 1px solid rgb(44, 70, 70);
   background: linear-gradient(90deg, black, grey);
