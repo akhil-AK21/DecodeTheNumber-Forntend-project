@@ -4,7 +4,7 @@
 
 This project is a static webpage game designed to decode a 4 digit random number.The user can decode the correct number based on the clues displyed at the right side panel for each tries. This was build by the inspiration of a game that I have played a few years ago named "MASTERMIND".
 
-#Technologies use:-
+#Technologies used:-
 1. HTML5
 2. CSS custom properties
 3. JavaScript
