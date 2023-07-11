@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    
+    <title>MasterMind</title>
+  </head>
+  <body>
+    <div class="container win">
+      <header><h1>Decode the Number</h1></header>
+      <main class="main">
+        <div class="guess">
+          <div class="message msg-start">Let's Decode...!</div>
+          <div class="number-field">
+
+            <input class="digits digit0" name="digits"></input>
+            <input class="digits digit1" name="digits"></input>
+            <input class="digits digit2" name="digits"></input>
+            <input class="digits digit3" name="digits"></input>
+            
+          </div>
+          
+          <button name="submit" class="btn-submit">Enter</button>
+        <div class="score-field">
+          <div class="best-text">Best Score :-</div>
+          <div class="best-score"></div> 
+        </div>
+      </div> 
+        <div class="restart">
+          <button class="btn-restart">Restart</button>
+        </div>
+        <div class="history"></div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

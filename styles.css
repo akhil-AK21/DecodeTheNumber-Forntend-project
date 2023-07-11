@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(black, rgba(0, 0, 0, 0.683)); */
+  background-color: bisque;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  border: 0px 2px solid darkkhaki;
+  margin: 10px;
+  background-color: rgb(145, 228, 145);
+  /* background-color: rgb(191, 255, 80); */
+}
+.main {
+  display: flex;
+  /* align-items: top; */
+  justify-content: space-between;
+  margin: auto;
+  height: 80vh;
+  max-width: 80%;
+  border: 1px solid rgb(44, 70, 70);
+  background: linear-gradient(90deg, black, grey);
+  border-radius: 10px;
+}
+.guess {
+  width: 45%;
+
+  margin: 15px;
+  padding: 5px;
+  border-right: 4px groove white;
+
+  /* border-style: ; */
+  /* height: 75vh; */
+}
+.history {
+  background-color: rgb(57, 55, 55);
+  /* background: linear-gradient(90deg, rgb(98, 98, 90) 10%, rgb(57, 55, 55)); */
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  width: 45%;
+  border-left: 4px solid white;
+  border-top: 4px double black;
+  border-bottom: 4px double black;
+  border-right: 4px double white;
+  margin: 15px;
+  padding: 5px;
+  overflow: auto;
+  text-align: center;
+  line-height: 1.4;
+}
+.restart {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 50px; */
+
+  /* height: 10px; */
+}
+.btn-restart {
+  padding: 5px;
+  background-color: rgb(236, 236, 131);
+  font-size: 18px;
+}
+.number-field {
+  display: flex;
+  justify-content: space-around;
+  /* //justify-content: space-between; */
+  margin-top: 40px;
+  padding: 30px;
+}
+.msg-start {
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  color: yellow;
+  font-weight: 400;
+}
+.digits {
+  max-width: 16%;
+  /* height: 20%; */
+  font-size: 24px;
+  /* padding: 4px; */
+  text-align: center;
+  color: green;
+  font-weight: 600;
+
+  /* margin: 10px;; */
+}
+.btn-submit {
+  padding: 10px 15px;
+  margin: auto;
+
+  display: flex;
+  text-align: center;
+}
+.btn-submit:hover,
+.btn-restart:hover,
+.main {
+  cursor: pointer;
+  box-shadow: 4px 3px 15px 2px black;
+}
+.shake-it {
+  animation: shake 0.2s;
+  animation-iteration-count: 2;
+  background-color: white;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(-3px);
+  }
+  25% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.score-field {
+  display: flex;
+  font-size: 2.2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  position: relative;
+  top: 30px;
+  color: whitesmoke;
+}
+.best-score {
+  text-align: left;
+}
