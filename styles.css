@@ -26,6 +26,7 @@ header {
   border: 1px solid rgb(44, 70, 70);
   background: linear-gradient(90deg, black, grey);
   border-radius: 10px;
+  overflow: auto;
 }
 .guess {
   width: 45%;
