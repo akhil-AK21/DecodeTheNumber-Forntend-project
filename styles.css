@@ -51,7 +51,7 @@ header {
   border-right: 4px double white;
   margin: 15px;
   padding: 5px;
-  overflowY: auto;
+  overflow-y: auto;
   text-align: center;
   line-height: 1.4;
 }
