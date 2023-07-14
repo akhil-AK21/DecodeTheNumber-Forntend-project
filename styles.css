@@ -25,7 +25,7 @@ header {
   /* align-items: top; */
   justify-content: space-between;
   margin: auto;
-  max-height: 80%;
+  max-height: 80vh;
   max-width: 80%;
   border: 1px solid rgb(44, 70, 70);
   background: linear-gradient(90deg, black, grey);
@@ -34,7 +34,9 @@ header {
 }
 .guess {
   width: 45%;
-
+	display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
   margin: 15px;
   padding: 5px;
   border-right: 4px groove white;
@@ -55,7 +57,7 @@ header {
   border-right: 4px double white;
   margin: 15px;
   padding: 5px;
-  overflow-y: auto;
+  overflow: auto;
   text-align: center;
   line-height: 1.4;
 }
